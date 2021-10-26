@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>.ajsimg {width: 90%; height:80%;}
+    .ajsdiv2{
+      padding: 10px; margin: auto;}
+    .hdi {font-size: 20px; font-weight: bold;}
+    .ajsdiv {float:left;
+      margin:auto;
+      padding: 20px; 
+      align-items: center;
+      display: inline;
+      border-radius: 30px 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width: 150px; height: 140px;
+    }
+    .newsdiv { padding-top: 80px;
+      padding-left: 40px;
+      max-width: fit-content;
+    }
+    .newsdivbg{background: lightcoral;}
+    .newsdiv2 { float: left;
+    display: block;
+    }
+    div.example {
+      overflow: auto;
+      white-space: nowrap;
+    }
+    
+    div.example img {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    img.logosize {max-width: 100px; max-height: 100px; display: block;margin-left: auto;margin-right: auto;}
+    
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .example::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .example {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    .fram{max-width:fit-content;
+    max-height: fit-content;}
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+    
+    .button1 {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+    .button2:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .start {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+padding: 10px;
+line-height: 28px;
+display: inline;
+}
+.open{font-family:'Acme';}
+.open.eve{background:grey;color: white;}
+.open.head{width:fit-content; font-size: 25px;}
+ul.a {
+  list-style-type: circle;
+}
+.footer{padding:20px; background:grey; border-radius: 0px; color: white;}
+.footer.cred{background:black;padding:5px;}
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.pace{background:grey;width:100%;height: 3px; font-size:35px;}
+.event{background: grey;}.event.bg{ border:2px black; border-style: inset;float:left;}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" width="30px"height="35px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Reality Mix Me</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+    <div id="containerIntro">
+            <p><marquee direction="left"><i class="material-icons" style="font-size: 10px;">label</i> Welcome To Reality Audio Studio Mix Me</marquee></p>
+        </div>
+    <div class="ajsdiv2">
+        <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">notifications</i><h2 class="hdi">What's new</h2><p>New Notifications</p></i></div>
+        <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">album</i><h2 class="hdi">Releases</h2><p>Latest Projects</p></i></div>
+        <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">group</i><h2 class="hdi">Community</h2><p>Discuss All</p></i></div>
+     
+    </div>
+        <div class="ajsdiv2">
+          <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">build</i><h2 class="hdi">Services</h2><p>Build Audio</p></i></div>
+          <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">account_circle</i><h2 class="hdi">Contact</h2><p>Get Us</p></i></div>
+          <div class="ajsdiv" onclick="location.href='http://www.google.com';"><i class="material-icons" style="font-size:25px">school</i><h2 class="hdi">Tutorials</h2><p>Free Forever</p></i></div>
+        </div></div>
+        
+      <div class="open"> <h1 class="open head">Welcome To Reality Audio Studio</h1>
+        <img class="logosize" src="img/logo.png" >
+        <p>"Music is such a thing that we can't imagine , because it is an unbelievable truth .." Reality Audio Studio aims that. We are here to help and rise new musicians and vocalists to grow up their musical talents.</p>
+    </div>
+    <div class="open eve"><h1 class="open head">Upcoming Events</h1>
+      <p>Next Event on</p>
+      <div class="event"><div class="event bg" style="font-size: 49px; background:lightsalmon;">04</div><div class="event bg"><h4>Music Event</h4><p>Manimooly | Oct 2021</p></div></div>
+</div></div>
+<div class="open"><h1 class="open head">Releases</h1>
+  <div class="example"><img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+  <img src="img/simplyme.jpg" alt="Trulli" style="width:50%">
+</div>
+    <button class="button button2" onclick="location.href='http://www.google.com';">Get all</button></div>
+    <div class="footer"><h4 class="open head">Reality Audio Studio</h4><ul class="a">
+        <li><i class="material-icons" style="font-size:10px;">gps_fixed</i>Manimooly</li>
+        <li>Kerala</li>
+        <li><i class="material-icons" style="font-size:10px;">email</i><b>Email:</b> realityaudiostudio@gmail.com</li>
+      </ul><iframe class="fram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d732.1334560045768!2d76.33463482913416!3d11.370998314275628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDIyJzE1LjYiTiA3NsKwMjAnMDYuNyJF!5e1!3m2!1sen!2sin!4v1635262848521!5m2!1sen!2sin"style="border: 1px;;" allowfullscreen="" loading="lazy"></iframe></div>
+      <div class="footer cred"><p><center>Developed By Alan Jose Santo</center></p></div>
+</body>
+</html>
